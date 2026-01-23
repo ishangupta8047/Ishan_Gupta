@@ -1,0 +1,214 @@
+---
+title: "Ishan Gupta"
+subtitle: "Aspiring Quantitative Researcher | UNC Chapel Hill"
+output:
+  distill::distill_article:
+    self_contained: true
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(fontawesome)
+```
+
+
+```{=html}
+<style type="text/css">
+
+div {
+color: #13294B;
+}
+
+#TOC {
+  color: #13294B;
+}
+
+/* === UNC logo next to the Distill title (top-left) === */
+.d-title {
+  position: relative;
+}
+
+.d-title h1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;  /* left align */
+  gap: 12px;
+}
+
+/* Inject the logo before the name */
+.d-title h1::before {
+  content: "";
+  display: inline-block;
+  width: 48px;      /* adjust */
+  height: 48px;     /* adjust */
+  background-image: url("UNC_Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 0 0 48px;
+}
+
+/* === Centered headshot === */
+.headshot-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.headshot {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  color: #4B9CD3;
+  background-color: #13294B;
+}
+
+a:link {
+    color: #4B9CD3;
+    text-decoration: none;
+}
+
+a:visited {
+        text-decoration: none;
+color: #4B9CD3;
+
+}
+a:hover {
+color: #4B9CD3;
+background-color: #13294B;
+}
+
+.main-container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+p {
+  color: #4B9CD3;
+}
+
+h1 {
+  color: #13294B;
+}
+
+h2 {
+  color: #13294B;
+}
+
+
+ul li {
+  color: #4B9CD3
+
+</style>
+```
+
+<div class="headshot-wrapper">
+  <img src="ishan_gupta_headshot.jpg"
+       class="headshot" />
+</div>
+
+<!-- ============================================== -->
+<!--                   ABOUT ME                     -->
+<!-- ============================================== -->
+
+## About Me
+
+I am an aspiring data scientist studying at UNC Chapel Hill currently pursuing a **B.S.-M.S. in Statistics & Analytics** with a double major in **Mathematics**.
+
+My current interests include:
+
+- Quantitative Finance
+- Algorithmic Game Theory
+- Sports Analytics
+
+When I'm not coding, you can find me playing pickleball, poker, or trying a new cuisine.
+
+## Education
+
+**University of North Carolina at Chapel Hill**  
+B.S. in Statistics & Analytics
+Expected Graduation: Dec 2028 <br>
+GPA: 3.93/4.0
+
+<div style="margin-left: 25px;">
+  <u>Relevant Coursework:</u> Statistical Methods I & II; Economics Data Analysis; Calculus I, II, III; Data Science in R & Python; Algebraic Geometry; Methods of Data Science
+</div>
+
+**High School**  
+Graduation: Jun 2024 <br>
+GPA: 3.8/4.0
+
+## Experience
+
+**Research Assistant**  
+Rutgers University / Department of Mathematics  
+Sept. 2024 – Present  
+• Mathematics research on division algorithms, creating optimal allocations for multiple agents.  
+•	Wrote foundational proof for applications in game theory and computational social choice.  
+•	Preparing results for submission to the highest tier of computer science conferences (AAA conference).  
+
+
+**Private Equity Analyst Intern**  
+Next Haven Group  
+Jun 2024 – Aug 2024  
+•	Conducted outreach to 30+ potential acquisition targets weekly.  
+•	Researched company financials to ensure alignment with the firm’s investment criteria.  
+•	Collaborated with the investment team to identify promising candidates for deeper due diligence.  
+
+**Financial Intern**  
+National Junior Tennis and Learning of Trenton (NJTLT)  
+May 2024 - Jun 2024  
+•	Piloted full review of the organization’s financial records and identified areas for improvement.    
+•	Uncovered $5,000+ in potential savings by spotting missing information and securing funding.  
+•	Led a fundraising effort that raised over $10,000 in one day for underserved youth. 
+
+## Projects
+
+**Bayesian Tennis Serve Predictor**    
+*Tools: Python, sklearn, pandas, yfinance*   
+Do tennis players tend to become more predictable as pressure increases in a match? Is there a way to use Baye's thorem to predict where and how a player will serve given a certain pressure indicator?  
+[`r fa("github")` Code](https://github.com/ishangupta8047/BayesianServePredictor)
+
+
+## Skills
+
+**Languages & Tools**  
+R • Python • SQL • GitHub • R Markdown
+
+**Data Science Stack**  
+tidyverse • tidymodels • scikit-learn • pandas • numpy • ggplot2 • seaborn • plotly
+
+**Other**  
+LaTeX • HTML/CSS
+
+
+
+---
+
+Last updated: `r format(Sys.Date(), "%B %Y")`
