@@ -191,11 +191,15 @@ May 2024 - Jun 2024
 
 ## Projects
 
-**Bayesian Tennis Serve Predictor**    
-*Tools: Python, sklearn, pandas, yfinance*   
-Do tennis players tend to become more predictable as pressure increases in a match? Is there a way to use Baye's thorem to predict where and how a player will serve given a certain pressure indicator?  
-[`r fa("github")` Code](https://github.com/ishangupta8047/BayesianServePredictor)
+**Optimal Stopping In Marble Game Using Bayesian Analysis**    
+*Tools: Bayesian Analysis, Mathematical Probability, Optimization*   
+Given a game with a bag of blue and red marbles where drawing a blue marble increases our value by 1 dollar and drawing a red marble decreases our value by 1 dollar, can we use probability distributions and Bayeisan anaylsis to find the optimal stopping point if we don't know the number of blue and red marbles, only the total number of marbles?
+[`r fa("github")` Paper](https://github.com/ishangupta8047/Optimal-Stopping-Game/blob/main/Optimal_Stopping_With_Unknown_Marbles.pdf)
 
+**Don't Bet On Sunshine: A Modern Re-Examination of Weather Effects on Stock Market Behavior**  
+*Tools: Python, Matplotlib, Regression Analysis, Seaborn*  
+I revisit the long-standing behavioral hypothesis that weather affects investor mood and, consequently, financial market behavior. I estimate a series of univariate and multivariate linear regressions using return, intraday volatility, and trading volume (both raw and log-transformed) as dependent variables. I also test for delayed effects using lagged weather variables and behavioral responses to short-term temperature changes.
+[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5446314)
 
 ## Skills
 
