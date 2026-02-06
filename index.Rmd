@@ -22,6 +22,9 @@ library(fontawesome)
 
 
 ```{=html}
+<head>
+<link rel="icon" type="image/png" href="unc_logo.png">
+</head>
 <style type="text/css">
 
 div {
